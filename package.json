@@ -1,0 +1,19 @@
+{
+	"name": "hello-mongo",
+	"version": "0.0.1",
+	"private": true,
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/xzela/hello-mongo.git"
+	},
+	"config": {
+		"port": 3000
+	},
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"mongojs": "*",
+		"mongoose": "*"
+	}
+}
